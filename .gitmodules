@@ -1,6 +1,3 @@
-[submodule "themes/paige"]
-	path = themes/paige
-	url = https://github.com/willfaught/paige.git
 [submodule "themes/hugo-eureka"]
 	path = themes/hugo-eureka
 	url = https://github.com/wangchucheng/hugo-eureka.git
