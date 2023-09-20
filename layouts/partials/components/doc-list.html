@@ -1,0 +1,9 @@
+<div class="pl-scrollbar bg-secondary-bg">
+  <div class="mx-auto px-6 py-12 md:px-8 lg:w-3/4 xl:px-12">
+      {{ partial "components/list-article" . }}
+      <div class="bg-secondary-bg rounded px-6">
+        {{ partial "components/summary-list-plain" .Paginator.Pages }}
+      </div>
+    </div>
+</div>
+{{ template "_internal/pagination.html" . }}

@@ -1,0 +1,11 @@
+<article class="prose">
+  <h1 class="mb-4">{{ .Title }}</h1>
+
+  {{ $featured := partial "utils/get-featured" . }}
+  {{ with $featured }}
+    {{ . }}
+  {{ end }}
+
+  {{ .Content }}
+
+</article>

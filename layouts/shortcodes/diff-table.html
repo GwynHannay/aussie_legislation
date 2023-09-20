@@ -1,0 +1,23 @@
+{{ with .Get "diffs" }}
+    {{ $diff := . }}
+    {{ $data := getJSON (print "data/diffs/" $diff ".json") }}
+    <table>
+        <thead>
+            <tr>
+            {{ range $data.headers }}
+            <th>{{ . }}</th>
+            {{ end }}
+            </tr>
+        </thead>
+        <tbody>
+            {{ range $data.rows }}
+            <tr>
+                {{ range . }}
+                    <td>{{ . }}</td>
+                {{ end }}
+                <td>{{ partial "components/diff-link" . }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+{{ end }}

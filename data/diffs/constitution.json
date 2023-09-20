@@ -1,0 +1,69 @@
+{
+    "headers": [
+        "No",
+        "Compilation Date",
+        "Title",
+        "Document ID",
+        "Date Registered",
+        "Last Downloaded",
+        "Changes"
+    ],
+    "rows": [
+        [
+            "00",
+            "09 Jul 1900",
+            "Commonwealth of Australia Constitution Act [Principal]",
+            "C2004Q00685",
+            "-",
+            "12 Jun 2022"
+        ],
+        [
+            "01",
+            "03 Apr 1907",
+            "Commonwealth of Australia Constitution Act [Superseded]",
+            "C2021Q00024",
+            "17 Nov 2021",
+            "12 Jun 2022"
+        ],
+        [
+            "02",
+            "06 Aug 1910",
+            "Commonwealth of Australia Constitution Act [Superseded]",
+            "C2021Q00025",
+            "18 Nov 2021",
+            "12 Jun 2022"
+        ],
+        [
+            "03",
+            "13 Feb 1929",
+            "Commonwealth of Australia Constitution Act [Superseded]",
+            "C2021Q00026",
+            "18 Nov 2021",
+            "12 Jun 2022"
+        ],
+        [
+            "04",
+            "16 Jan 1947",
+            "Commonwealth of Australia Constitution Act [Superseded]",
+            "C2021Q00027",
+            "18 Nov 2021",
+            "12 Jun 2022"
+        ],
+        [
+            "05",
+            "07 Sep 1967",
+            "Commonwealth of Australia Constitution Act [Superseded]",
+            "C2004C00469",
+            "-",
+            "12 Jun 2022"
+        ],
+        [
+            "06",
+            "29 Jul 1977",
+            "Commonwealth of Australia Constitution Act [Latest]",
+            "C2013Q00005",
+            "06 Sep 2013",
+            "12 Jun 2022"
+        ]
+    ]
+}

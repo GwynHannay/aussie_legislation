@@ -1,0 +1,9 @@
+{{ $num := index . 0 }}
+
+{{ $link := print "v" $num }}
+
+{{ if eq $num "00" }}
+-
+{{ else }}
+<a href="{{ $link }}">View</a>
+{{ end }}
